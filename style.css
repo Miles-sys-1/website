@@ -1,0 +1,61 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar {
+    padding: 1rem 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.nav-link {
+    margin-right: 15px;
+    font-weight: 500;
+    color: #555;
+    transition: color 0.3s ease;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: #007bff;
+}
+section {
+    padding: 60px 0;
+}
+h1, h2, h3, h5 {
+    font-weight: 600;
+}
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.modal-body img {
+    border-radius: 12px;
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+footer {
+    background: #f1f1f1; /* Changed from #343a40 to a soft blue-gray */
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Always visible at the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
